@@ -1,0 +1,5 @@
+# Keep the hashed data files byte-for-byte identical on Windows and Linux.
+# Without this, Git could convert line endings on checkout, which would change
+# the SHA-256 of inputs.jsonl and make run_benchmark.py refuse to start.
+inputs/inputs.jsonl -text
+data/*.txt -text

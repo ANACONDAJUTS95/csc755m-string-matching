@@ -1,0 +1,12 @@
+{
+  "url": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+  "download_date_utc": "2026-11-03 04:01:40 UTC",
+  "raw_char_count": 167712,
+  "raw_byte_count": 174311,
+  "raw_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+  "clean_char_count": 143127,
+  "clean_byte_count": 149622,
+  "clean_sha256": "1d59d565fe460faead044bd47eb19214388b495f1dbb90e3491bad8f6e695974",
+  "sigma_size": 74,
+  "sigma": " !()*,-.03:;?ABCDEFGHIJKLMNOPQRSTUVWXYZ[]_abcdefghijklmnopqrstuvwxyz\u00f9\u2014\u2018\u2019\u201c\u201d"
+}
