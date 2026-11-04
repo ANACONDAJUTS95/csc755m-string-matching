@@ -18,3 +18,7 @@ Thumbs.db
 
 # NOTE: inputs/, data/ and results/ are intentionally NOT ignored. They are part of
 # the reproducibility record and must be committed.
+
+# Environment files (may hold secrets)
+.env
+.env.*

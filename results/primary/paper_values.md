@@ -1,6 +1,6 @@
 # Paper values checklist
 
-Generated 2026-11-04 04:38:54 UTC by `analyze.py`. Tick each item off as you paste it.
+Generated 2026-11-04 10:40:04 UTC by `analyze.py`. Tick each item off as you paste it.
 
 > Time and comparisons are divided by text length n before testing because exact lengths vary up to tenfold within each level and are drawn independently for each condition. This normalization was adopted after inspecting the first, unnormalized analysis, which is reported in the appendix.
 
@@ -35,13 +35,13 @@ Generated 2026-11-04 04:38:54 UTC by `analyze.py`. Tick each item off as you pas
 |  | Primary machine | Replication machine |
 | --- | --- | --- |
 | **Role** | Primary | Replication |
-| **Model** | TODO | Dell Inspiron 7501 |
-| **CPU** | AMD Ryzen AI 9 HX 370 w/ Radeon 890M | (not yet run) |
-| **Cores** | 12 physical / 24 logical | (not yet run) |
-| **RAM** | 32 GB (31.1 GiB usable) | (not yet run) |
-| **OS** | Windows 11 (Core, build 10.0.26300) | (not yet run) |
-| **Python version** | CPython 3.12.13 | (not yet run) |
-| **Pinned core** | Logical core 2: Zen 5 core | (not yet run) |
+| **Model** | ASUS ROG Zephyrus G14 (GA403WR) | Dell Inspiron 7501 |
+| **CPU** | AMD Ryzen AI 9 HX 370 w/ Radeon 890M | Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz |
+| **Cores** | 12 physical / 24 logical | 4 physical / 8 logical |
+| **RAM** | 32 GB (31.1 GiB usable) | 16 GB (15.4 GiB usable, installed size estimated) |
+| **OS** | Windows 11 (Core, build 10.0.26300) | CachyOS (kernel 7.3.1-1-cachyos) |
+| **Python version** | CPython 3.12.13 | CPython 3.12.13 |
+| **Pinned core** | Logical core 2: Zen 5 core | Logical core 2: single core type (homogeneous CPU) core |
 
 ## Software and machine details (primary)
 
@@ -62,12 +62,18 @@ Generated 2026-11-04 04:38:54 UTC by `analyze.py`. Tick each item off as you pas
 
 | Item | Value |
 | --- | --- |
-| (not available) |  |
+| OS | CachyOS (kernel 7.3.1-1-cachyos) |
+| CPU | Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz |
+| Cores (physical / logical) | 4 / 8 |
+| RAM | 15.4 GiB |
+| Python | CPython 3.12.13 (main Aug  7 2026 02:25:39) |
+| Packages | numpy 2.5.4, scipy 1.18.1, pandas 3.1.0, matplotlib 3.11.2, psutil 7.2.2, pytest 9.2.0 |
+| Timer resolution | 1 ns |
 
 ## Row counts
 
 - [ ] Primary rows: **5,130** (expected 5,130)
-- [ ] Replication rows: (not yet run)
+- [ ] Replication rows: **5,130**
 
 | Algorithm | Primary rows |
 | --- | ---: |

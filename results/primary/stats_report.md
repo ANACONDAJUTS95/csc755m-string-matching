@@ -2,7 +2,7 @@
 
 > Time and comparisons are divided by text length n before testing because exact lengths vary up to tenfold within each level and are drawn independently for each condition. This normalization was adopted after inspecting the first, unnormalized analysis, which is reported in the appendix.
 
-Generated 2026-11-04 04:38:54 UTC by `analyze.py` from `raw_runs.csv` (5,130 rows).
+Generated 2026-11-04 10:40:04 UTC by `analyze.py` from `raw_runs.csv` (5,130 rows).
 
 ## Method
 

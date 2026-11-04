@@ -557,7 +557,7 @@ def env_rows(env):
 
 
 # Laptop model for the Model row (not detectable reliably from Python).
-MACHINE_MODELS = {"primary": "TODO", "replication": "Dell Inspiron 7501"}
+MACHINE_MODELS = {"primary": "ASUS ROG Zephyrus G14 (GA403WR)", "replication": "Dell Inspiron 7501"}
 
 
 def ram_text(e):
